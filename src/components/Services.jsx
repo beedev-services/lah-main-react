@@ -12,17 +12,17 @@ export default function Services() {
                     <div className="services">
                         <b>Consultation:</b>
                         <ul>
-                            <li>1 hour 30 minutes => $20</li>
+                            <li>1 hour 30 minutes • $20</li>
                         <li>For when you don't know what you are looking for</li>
                         </ul>
                         <b>Event Booking:</b>
                         <ul>
-                            <li>1 hour and up => $50</li>
+                            <li>1 hour and up • $50</li>
                             <li>Parties, Sporting events, special events</li>
                         </ul>
                         <b>Senior Photos:</b>
                         <ul>
-                            <li>2 hours and up => $80</li>
+                            <li>2 hours and up • $80</li>
                             <li>On Location or In Studio</li>
                         </ul>
                     </div>

@@ -6,6 +6,8 @@ import Home from './components/Home'
 import About from './components/About'
 import News from './components/News'
 import Services from './components/Services'
+import Contact from './components/Contact'
+import Terms from './components/Terms'
 
 export default function App() {
   // Chat
@@ -46,12 +48,12 @@ export default function App() {
           <Route path="/services">
             <Services />
           </Route>
-          {/* <Route path="/contact">
+          <Route path="/contact">
             <Contact />
-          </Route> */}
-          {/* <Route path="/terms">
+          </Route>
+          <Route path="/terms">
             <Terms />
-          </Route> */}
+          </Route>
           <Route path="/" component={Home} />
         </Switch>
       </div>

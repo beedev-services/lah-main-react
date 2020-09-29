@@ -9,7 +9,7 @@ const Home = () => {
         <div>
             <div className='heading'>
                 <h1>Welcome to LAH Photography</h1>
-                <h3>View the <a href="3">Photography Portfolio</a> to see a sampling of her work</h3>
+                <h3>View the <a href="https://portfolio.lah-photography.com" target="_blank">Photography Portfolio</a> to see a sampling of her work</h3>
             </div>
             <div className="content">
                 <div className="mobile">
