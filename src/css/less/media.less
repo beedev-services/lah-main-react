@@ -1,0 +1,206 @@
+@import 'base.less';
+
+@media @400 {
+    .App {
+        .header {
+            img {width: 20em;}
+        }
+        .main {
+            .content {
+                .homeimgs {width: 25em;
+                    .sliderimg {
+                        width: 20em;
+                    }
+                }
+                .aboutimg {width: 18em;}
+                .aboutp {
+                    p {font-size: 1.4em;}
+                }
+                .specials {
+                    img {width: 22em;}
+                }
+                .services-content {
+                    .services {
+                        b {font-size: 1.3em;}
+                        ul {width: 18em;
+                            font-size: 1.2em;}
+                    }
+                }
+                .terms {
+                    ol {width: 300px;}
+                }
+            }
+        }
+    }
+}
+
+@media @530 {
+    .App {
+        .header {
+            img {width: 30em;}
+        }
+        .main {
+            .content {
+                .homeimgs {width: 35em;
+                    .sliderimg {
+                        width: auto;
+                    }
+                }
+                .aboutimg {width: auto;}
+                .contact {
+                    p {font-size: 1.5em;}
+                }
+                .specials {
+                    img {width: 30em;}
+                }
+                .services-content {
+                    .services {
+                        ul {width: 22em;}
+                    }
+                }
+                .terms {
+                    ol {width: 400px;}
+                }
+            }
+        }
+    }
+}
+
+@media @730 {
+    .App {
+        .header {
+            nav {
+                a {font-size: 1.2em;}
+            }
+        }
+        .main {border-radius: 15%;
+            .heading {
+                h1 {font-size: 3em;}
+                h3 {font-size: 1.8em;}
+            }
+            .content {
+                .mobile {display: none;}
+                .p {.flexcolumn();
+                    text-align: center;
+                    font-size: 1.4em;
+                    
+                    p {padding: .8em;}
+                }
+                .homeimgs {width: 50em;
+                }
+                .aboutp {width: 40em;}
+                .specials {
+                    img {width: 40em;}
+                }
+                .terms {
+                    padding-bottom: 3em;
+                    ol {width: 600px;}
+                } 
+            }
+        }
+    }
+}
+
+@media @850 {
+    .App {
+        .header {
+            nav {.flexrow();
+    
+                .icon {display: none;}
+                #desktop {.flexrow();}
+            }
+        }
+        .main {
+            .about {.flexrow();
+                .aboutimg {align-self: flex-start;
+                    width: 20em;
+                    padding: 1em;}
+                .aboutp {.flexcolumn();
+                    width: 20em;
+                }
+            }
+            .newscontent {.flexrow();
+                .news {width: 20em;
+                    align-self: flex-start;
+                    p {
+                        b {font-size: 1.4em;
+                            font-weight: bold;}
+                    }
+                }
+                .specials {width: 30em;
+                    padding: 1em;
+                    align-self: flex-start;
+                    p {
+                        b {font-size: 1.3em;
+                            font-weight: bold;}
+                    }
+                    img {width: 28em;
+                        padding-bottom: 1em;}
+                }
+            }
+            .service {
+                .services-content {.flexrow();
+                    flex-wrap: wrap;   
+                    .services {width: 20em;
+                        align-self: flex-start;
+                        ul {width: 12em;}
+                    }
+                }
+            }
+            .content{
+                .terms {
+                    width: 800px;
+                }
+            }
+        }
+    }
+}
+
+@media @1000 {
+    .App {
+        .header {
+            img {width: auto;}
+        }
+        .main {
+            .about {
+                .aboutimg {width: auto;}
+                .aboutp {width: 40em;}
+            }
+            .newscontent {.flexrow();
+                .news {width: 20em;
+                    align-self: flex-start;
+                    p {
+                        b {font-size: 1.4em;
+                            font-weight: bold;}
+                    }
+                }
+                .specials {width: 40em;
+                    padding: 1em;
+                    align-self: flex-start;
+                    p {
+                        b {font-size: 1.3em;
+                            font-weight: bold;}
+                    }
+                    img {width: 35em;
+                        padding-bottom: 1em;}
+                }
+            }
+        }
+    }
+}
+
+@media @1330 {
+    .App {
+        .header {
+            nav {
+                a {padding: 14px 35px;}
+            }
+        }
+        .main {
+            .about {padding: 1em 0;
+                .aboutp {width: 60em;}
+            }
+        }
+    }
+    
+}

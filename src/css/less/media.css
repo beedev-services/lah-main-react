@@ -1,0 +1,239 @@
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flexcolumnalt {
+  display: flex;
+  flex-direction: column;
+}
+.center {
+  margin: auto;
+}
+@media only screen and (min-width: 400px) {
+  .App .header img {
+    width: 20em;
+  }
+  .App .main .content .homeimgs {
+    width: 25em;
+  }
+  .App .main .content .homeimgs .sliderimg {
+    width: 20em;
+  }
+  .App .main .content .aboutimg {
+    width: 18em;
+  }
+  .App .main .content .aboutp p {
+    font-size: 1.4em;
+  }
+  .App .main .content .specials img {
+    width: 22em;
+  }
+  .App .main .content .services-content .services b {
+    font-size: 1.3em;
+  }
+  .App .main .content .services-content .services ul {
+    width: 18em;
+    font-size: 1.2em;
+  }
+  .App .main .content .terms ol {
+    width: 300px;
+  }
+}
+@media only screen and (min-width: 530px) {
+  .App .header img {
+    width: 30em;
+  }
+  .App .main .content .homeimgs {
+    width: 35em;
+  }
+  .App .main .content .homeimgs .sliderimg {
+    width: auto;
+  }
+  .App .main .content .aboutimg {
+    width: auto;
+  }
+  .App .main .content .contact p {
+    font-size: 1.5em;
+  }
+  .App .main .content .specials img {
+    width: 30em;
+  }
+  .App .main .content .services-content .services ul {
+    width: 22em;
+  }
+  .App .main .content .terms ol {
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 730px) {
+  .App .header nav a {
+    font-size: 1.2em;
+  }
+  .App .main {
+    border-radius: 15%;
+  }
+  .App .main .heading h1 {
+    font-size: 3em;
+  }
+  .App .main .heading h3 {
+    font-size: 1.8em;
+  }
+  .App .main .content .mobile {
+    display: none;
+  }
+  .App .main .content .p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.4em;
+  }
+  .App .main .content .p p {
+    padding: 0.8em;
+  }
+  .App .main .content .homeimgs {
+    width: 50em;
+  }
+  .App .main .content .aboutp {
+    width: 40em;
+  }
+  .App .main .content .specials img {
+    width: 40em;
+  }
+  .App .main .content .terms {
+    padding-bottom: 3em;
+  }
+  .App .main .content .terms ol {
+    width: 600px;
+  }
+}
+@media only screen and (min-width: 850px) {
+  .App .header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .App .header nav .icon {
+    display: none;
+  }
+  .App .header nav #desktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .App .main .about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .App .main .about .aboutimg {
+    align-self: flex-start;
+    width: 20em;
+    padding: 1em;
+  }
+  .App .main .about .aboutp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20em;
+  }
+  .App .main .newscontent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .App .main .newscontent .news {
+    width: 20em;
+    align-self: flex-start;
+  }
+  .App .main .newscontent .news p b {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+  .App .main .newscontent .specials {
+    width: 30em;
+    padding: 1em;
+    align-self: flex-start;
+  }
+  .App .main .newscontent .specials p b {
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+  .App .main .newscontent .specials img {
+    width: 28em;
+    padding-bottom: 1em;
+  }
+  .App .main .service .services-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .App .main .service .services-content .services {
+    width: 20em;
+    align-self: flex-start;
+  }
+  .App .main .service .services-content .services ul {
+    width: 12em;
+  }
+  .App .main .content .terms {
+    width: 800px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .App .header img {
+    width: auto;
+  }
+  .App .main .about .aboutimg {
+    width: auto;
+  }
+  .App .main .about .aboutp {
+    width: 40em;
+  }
+  .App .main .newscontent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .App .main .newscontent .news {
+    width: 20em;
+    align-self: flex-start;
+  }
+  .App .main .newscontent .news p b {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+  .App .main .newscontent .specials {
+    width: 40em;
+    padding: 1em;
+    align-self: flex-start;
+  }
+  .App .main .newscontent .specials p b {
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+  .App .main .newscontent .specials img {
+    width: 35em;
+    padding-bottom: 1em;
+  }
+}
+@media only screen and (min-width: 1330px) {
+  .App .header nav a {
+    padding: 14px 35px;
+  }
+  .App .main .about {
+    padding: 1em 0;
+  }
+  .App .main .about .aboutp {
+    width: 60em;
+  }
+}
