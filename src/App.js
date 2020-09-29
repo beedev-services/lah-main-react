@@ -31,8 +31,8 @@ export default function App() {
           <Link to="/about">About</Link>
           <Link to="/news">News</Link>
           <Link to="/services">Services</Link>
-          <Link to="http://gallery.lah-photography.com">Gallery</Link>
-          <Link to="http://archive.lah-photography.com">Archives</Link>
+          <a href="http://gallery.lah-photography.com">Gallery</a>
+          <a href="http://archive.lah-photography.com">Archives</a>
           <Link to="/contact">Contact</Link>
           <Link to="/terms">Terms & Conditions</Link>
         </nav>
