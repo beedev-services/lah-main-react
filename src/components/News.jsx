@@ -16,7 +16,7 @@ export default function News() {
                 </div>
                 <div className="specials">
                     <p><b>Specials:</b></p>
-                    <img  src="https://images.lah-photography.com/fall.jpg" alt="2020 Fall" />
+                    <img  src="https://images.lah-photography.com/specials/fall.jpg" alt="2020 Fall" />
                 </div>
             </div>
         </div>
